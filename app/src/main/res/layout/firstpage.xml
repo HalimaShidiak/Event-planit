@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!-- ImageView for the image -->
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:src="@drawable/planit"
+        android:scaleType="centerCrop"
+        />
+
+    <!-- LinearLayout container -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginTop="-20dp"
+        android:layout_weight="1"
+        android:background="@drawable/backgroundradius"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="25dp">
+
+        <!-- Title TextView -->
+        <TextView
+            android:id="@+id/event_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily=""
+            android:gravity="center"
+            android:text="PlanIt Event Planner"
+            android:textColor="@android:color/black"
+            android:textSize="30sp" />
+
+        <!-- Description TextView -->
+
+        <!-- Get Started Button -->
+
+        <TextView
+            android:id="@+id/welcome_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:padding="20dp"
+            android:text="Welcome to PlanIt, your go-to app for seamless event planning. Organize, schedule, and manage any event effortlessly—all in one place. Let’s make your next event unforgettable!"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/get_started_button"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/button_background"
+            android:backgroundTint="#FF000000"
+            android:padding="18dp"
+            android:text="Get Started"
+            android:textColor="@android:color/white"/>
+
+    </LinearLayout>
+</LinearLayout>
+
+
+
