@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppText" parent="Widget.AppCompat.TextView">
+        <item name="android:includeFontPadding">false</item>
+    </style>
+
+
+    <style name="AppTypography.Header1" parent="TextAppearance.AppCompat.Body1">
+        <item name="fontFamily">sans-serif</item>
+        <item name="android:textSize">40sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/textBlack</item>
+    </style>
+
+    <style name="AppTypography.Header2" parent="TextAppearance.AppCompat.Body1">
+        <item name="fontFamily">sans-serif</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/textBlack</item>
+    </style>
+
+    <style name="AppTypography.Header3" parent="TextAppearance.AppCompat.Body1">
+        <item name="fontFamily">sans-serif</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/textBlack</item>
+    </style>
+
+    <style name="AppTypography.Body1" parent="TextAppearance.AppCompat.Body1">
+        <item name="fontFamily">sans-serif</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/textBlack</item>
+    </style>
+
+    <style name="AppTypography.Body2" parent="TextAppearance.AppCompat.Body2">
+        <item name="fontFamily">sans-serif</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/textBlack</item>
+    </style>
+
+    <style name="AppTypography.Caption1" parent="TextAppearance.AppCompat.Caption">
+        <item name="fontFamily">sans-serif</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/textBlack</item>
+    </style>
+
+    <style name="AppTypography.Body1.Autosize">
+        <item name="android:maxLines">1</item>
+        <item name="android:lines">1</item>
+        <item name="android:ellipsize">end</item>
+
+        <item name="autoSizeMaxTextSize">15sp</item>
+        <item name="autoSizeMinTextSize">10sp</item>
+        <item name="autoSizeStepGranularity">0.1sp</item>
+        <item name="autoSizeTextType">uniform</item>
+    </style>
+
+    <style name="AppTypography.TextInput.Suffix" parent="AppTypography.Header3" />
+</resources>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppTheme.MaterialSpinnerStyle" parent="Widget.Material3.TextInputLayout.OutlinedBox">
+        <!--<item name="contentStyle">@style/AppTheme.TextInputEditText</item>-->
+    </style>
+
+    <style name="AppTheme.TextInputLayout" parent="Widget.Material3.TextInputLayout.OutlinedBox">
+        <!--...-->
+
+        <item name="materialThemeOverlay">@style/AppThemeOverlay.TextInputLayout</item>
+    </style>
+
+    <style name="AppThemeOverlay.TextInputLayout" parent="ThemeOverlay.Material3.TextInputEditText.OutlinedBox">
+        <item name="editTextStyle">@style/AppTheme.TextInputEditText</item>
+    </style>
+
+    <style name="AppTheme.TextInputEditText" parent="Widget.Material3.TextInputEditText.OutlinedBox">
+        <!--...-->
+    </style>
+
+
+
+    <style name="AppTheme.TextInputLayout.PickerSearch">
+        <item name="hintEnabled">false</item>
+        <item name="startIconDrawable">@drawable/abc_ic_search_api_material</item>
+    </style>
+
+</resources>

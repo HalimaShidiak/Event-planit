@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppContainers.Theme.MaterialAlertDialog" parent="ThemeOverlay.Material3.MaterialAlertDialog">
+        <item name="alertDialogStyle">@style/AppContainers.MaterialAlertDialog</item>
+    </style>
+
+    <style name="AppContainers.MaterialAlertDialog" parent="MaterialAlertDialog.Material3" />
+
+    <style name="AppContainers.Theme.BottomSheetDialog" parent="ThemeOverlay.Material3.BottomSheetDialog">
+        <item name="bottomSheetStyle">@style/AppContainers.BottomSheetDialog</item>
+    </style>
+
+    <style name="AppContainers.BottomSheetDialog" parent="Widget.Material3.BottomSheet.Modal">
+        <item name="backgroundTint">@color/bgdColor</item>
+    </style>
+
+
+    <style name="AppContainers.CardView" parent="Widget.Material3.CardView.Elevated">
+        <item name="cardBackgroundColor">@color/bgdColor</item>
+    </style>
+
+    <style name="AppContainers.CardView.Flat" parent="Widget.Material3.CardView.Filled">
+        <item name="cardBackgroundColor">@color/bgdColorSecondary</item>
+    </style>
+</resources>

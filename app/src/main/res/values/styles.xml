@@ -1,0 +1,55 @@
+<resources>
+
+    <style name="AppTheme" parent="Theme.Material3.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorSurface">@color/bgdColorSecondary</item>
+        <item name="android:colorBackground">@color/bgdColor</item>
+        <item name="android:textColorPrimary">@color/textBlack</item>
+
+        <item name="android:windowTranslucentStatus">false</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@color/colorPrimaryDark</item>
+        <item name="android:windowLightStatusBar">false</item>
+
+        <item name="toolbarStyle">@style/AppTheme.Toolbar</item>
+        <item name="drawerArrowStyle">@style/AppTheme.DrawerArrow</item>
+
+        <!--<item name="homeAsUpIndicator">@mipmap/ic_nav_back</item>
+        <item name="android:homeAsUpIndicator">@mipmap/ic_nav_back</item>-->
+
+        <item name="android:textViewStyle">@style/BaseTextView</item>
+        <item name="materialButtonStyle">@style/AppButtons.Button</item>
+        <item name="materialButtonOutlinedStyle">@style/AppButtons.Button.Outlined</item>
+        <item name="textInputStyle">@style/AppTheme.TextInputLayout</item>
+        <item name="materialAlertDialogTheme">@style/AppContainers.Theme.MaterialAlertDialog</item>
+        <item name="bottomSheetDialogTheme">@style/AppContainers.Theme.BottomSheetDialog</item>
+        <item name="materialCardViewStyle">@style/AppContainers.CardView</item>
+        <item name="materialCardViewElevatedStyle">@style/AppContainers.CardView</item>
+        <item name="materialCardViewFilledStyle">@style/AppContainers.CardView.Flat</item>
+
+        <item name="elevationOverlayEnabled">false</item>
+
+        <item name="materialSwitchStyle">@style/AppToggles.Switch</item>
+        <item name="checkboxStyle">@style/AppToggles.CheckBox</item>
+        <item name="radioButtonStyle">@style/AppToggles.RadioButton</item>
+    </style>
+
+
+    <style name="BaseTextView" parent="Widget.AppCompat.TextView">
+        <item name="android:fontFamily">@font/outfit_regular</item>
+        <item name="android:textColor">@color/subTitleColor</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:lineSpacingMultiplier">0.65</item>
+    </style>
+
+    <style name="BaseTextView.Title" parent="BaseTextView">
+        <item name="android:fontFamily">@font/outfit_bold</item>
+        <item name="android:textSize">28sp</item>
+    </style>
+
+    <style name="BaseTextView.SubTitle" parent="BaseTextView">
+        <item name="android:textSize">20sp</item>
+    </style>
+</resources>

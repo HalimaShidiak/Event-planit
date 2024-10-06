@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppToggles.Switch" parent="Widget.Material3.CompoundButton.MaterialSwitch">
+        <!--<item name="useMaterialThemeColors">false</item>
+        <item name="thumbTint">@color/switch_thumb_tint</item>
+        <item name="trackTint">@color/switch_track_tint</item>
+        <item name="trackDecorationTint">@color/transparent</item>-->
+    </style>
+
+    <style name="AppToggles.CheckBox" parent="Widget.Material3.CompoundButton.CheckBox"/>
+
+    <style name="AppToggles.RadioButton" parent="Widget.Material3.CompoundButton.RadioButton"/>
+</resources>

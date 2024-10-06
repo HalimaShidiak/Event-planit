@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppTheme.Toolbar" parent="Widget.Material3.Toolbar.Surface">
+        <item name="titleTextColor">@color/white</item>
+        <item name="subtitleTextColor">@color/white</item>
+        <item name="android:elevation">0dp</item>
+        <item name="materialThemeOverlay">@style/AppTheme.ToolbarTheme</item>
+    </style>
+
+    <style name="AppTheme.ToolbarTheme" parent="ThemeOverlay.Material3.Toolbar.Surface">
+        <item name="colorSurface">?colorPrimary</item>
+        <item name="colorOnSurface">@color/white</item>
+    </style>
+
+    <style name="AppTheme.DrawerArrow" parent="Widget.AppCompat.DrawerArrowToggle">
+        <item name="color">@color/white</item>
+    </style>
+</resources>

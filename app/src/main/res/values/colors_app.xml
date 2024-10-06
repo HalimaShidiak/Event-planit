@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="greyBgd">#EFF0F2</color>
+    <color name="greyBgdDark">#DEE0E1</color>
+    <color name="greySecondary">#CFCFD1</color>
+    <color name="mainColor">#80BD38</color>
+    <color name="mainColorDark">#80BD38</color>
+    <color name="mainColorTranslucent">#8080BD38</color>
+    <color name="textBlack">@color/black</color>
+    <color name="textGrey">#767883</color>
+    <color name="textDisabled">#A7A8B0</color>
+    <color name="redError">#E45940</color>
+
+    <!--Standards-->
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="white_transparent">#80ffffff</color>
+    <color name="transparent">#00000000</color>
+    <color name="placeholder">#F5F5F5</color>
+    <color name="gray_hint">#AAA</color>
+    <color name="gray_layout_background">#F9F9F9</color>
+    <color name="deleteRed">#FF3B30</color>
+    <color name="removeRed">#EA7166</color>
+</resources>

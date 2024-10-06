@@ -1,12 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="purple_200">#FFBB86FC</color>
-    <color name="purple_500">#FF6200EE</color>
-    <color name="purple_700">#FF3700B3</color>
-    <color name="teal_200">#FF03DAC5</color>
-    <color name="teal_700">#FF018786</color>
-    <color name="black">#FF000000</color>
-    <color name="white">#FFFFFFFF</color>
-    <color name="primary"> #FFFFFFFF</color>
-    <color name="grey">#9e957d</color>
+    <color name="colorPrimary">@color/mainColor</color>
+    <color name="colorPrimaryDark">@color/mainColorDark</color>
+    <color name="colorAccent">@color/mainColor</color>
+    <color name="colorAccentTransparent">@color/mainColorTranslucent</color>
+
+    <color name="bgdColor">@color/white</color>
+    <color name="bgdColorSecondary">@color/greyBgd</color>
+    <color name="bgdColorSecondaryDark">@color/greyBgdDark</color>
+    <color name="bgdColorTertiary">@color/greySecondary</color>
+
+    <color name="textErrorColor">@color/redError</color>
+    <color name="inputStrokeColor">#9F9F9F</color>
+    <color name="noteColor">#0D00AA99</color>
+    <color name="notBackgroundColor">#4DE4F4D2</color>
+    <color name="subTitleColor">#333</color>
+
 </resources>

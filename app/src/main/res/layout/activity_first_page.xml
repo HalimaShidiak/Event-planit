@@ -27,14 +27,13 @@
         <!-- Title TextView -->
         <TextView
             android:id="@+id/event_title"
+            style="@style/BaseTextView.Title"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
             android:fontFamily=""
             android:gravity="center"
-            android:text="PlanIt Event Planner"
-            android:textColor="@android:color/black"
-            android:textSize="30sp" />
+            android:text="PlanIt Event Planner" />
 
         <!-- Description TextView -->
 
@@ -48,7 +47,6 @@
             android:gravity="center"
             android:padding="20dp"
             android:text="Welcome to PlanIt, your go-to app for seamless event planning. Organize, schedule, and manage any event effortlessly—all in one place. Let’s make your next event unforgettable!"
-            android:textColor="@android:color/darker_gray"
             android:textSize="20sp" />
 
         <Button
